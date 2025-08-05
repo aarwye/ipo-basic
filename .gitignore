@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations (keep the folder, ignore pyc)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Ignore environment variables, db, secrets
+*.env
+db.sqlite3
+
+# Node modules for React
+ipo_mobile/node_modules/
+
+# Build outputs
+ipo_mobile/build/
+ipo_mobile/dist/
+
+# VSCode settings
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore compiled files
+*.exe
+*.dll
+
+# Ignore IDE files
+.idea/
+*.iml
